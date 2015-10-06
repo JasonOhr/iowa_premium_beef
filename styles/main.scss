@@ -56,8 +56,33 @@ h3 {
 p {
 
 }
+.header-wrapper {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
 header {
   height: 90px;
-  color: rgba(250,250,250,0.8);
 
+  background-color: rgba(250, 250, 250, .9);
+
+
+
+}
+.header-logo {
+  padding-top: 17px;
+}
+.top-image img {
+  width: 1900px;
+  height: 322px;
+  margin-left: -290px;
+  vertical-align: middle;
+}
+.shadow{
+  background: url('../images/topshadowrepeater.png') repeat-x;
+  height: 8px;
+}
+.container {
+  @include outer-container(83%);
 }
