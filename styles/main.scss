@@ -2,7 +2,7 @@
 @import '../bower_components/neat/app/assets/stylesheets/neat';
 
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: 'Open Sans',sans-serif;
 
 // Colors
 $blue: #477dca;
@@ -13,9 +13,51 @@ $very-light-gray: #fafafa;
 
 $base-font-color: $dark-gray;
 $base-background-color: $very-light-gray;
+$heading-color: #601111;
 
 body {
   font-family: $base-font-family;
-  background-color: $base-background-color;
-  color: $base-font-color;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color:#000;
+  font-weight: 400;
+  background-color: #fff;
+  height: 100%;
+  line-height: normal;
+}
+h1 {
+  font-family:'Merriweather',serif;font-weight:700;
+  font-size: 30px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  color: $heading-color;
+}
+h2 {
+  font-family: $base-font-family;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 23px;
+  color: $heading-color;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: $base-font-family;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: $heading-color;
+  margin: 0;
+  padding: 0;
+}
+p {
+
+}
+header {
+  height: 90px;
+  color: rgba(250,250,250,0.8);
+
 }
